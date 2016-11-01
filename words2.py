@@ -64,7 +64,7 @@ def words_graph():
             import gzip
             fh=gzip.open('words_dat.txt.gz','r')
         except:
-            fh=open("words_dat.txt","r")
+            fh=open("words.txt","r")
     except IOError:
         raise "File words_dat.txt not found."
 

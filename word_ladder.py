@@ -11,6 +11,8 @@ def makeGraph():
 		line = line.translate(None, '`1234567890-=~!@#$%^&*()_+[]\;'+"',./{}|:"+'"<>?')
 		line = line.lower()
 		wordsList.add(line)
+	
+
 
 
 if __name__ == '__main__':
